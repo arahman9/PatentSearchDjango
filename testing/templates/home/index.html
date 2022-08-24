@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>Patent</title>
+</head>
+<body>
+    <form>
+        <input type = "text" name ="q">
+        <button>Search</button>
+    </form>
+
+    {% for patent in patents %}
+        <h3>{{patent.id}}</h3>
+    {% endfor %}
+
+</body>
+</html>
