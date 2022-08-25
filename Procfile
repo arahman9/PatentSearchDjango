@@ -1,0 +1,1 @@
+web:gunicorn patentsite2.wsgi
